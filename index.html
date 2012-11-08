@@ -1,0 +1,54 @@
+
+<!doctype html>
+<html>
+
+
+    <!-- inspired by cat bounce, mostly pulled from mr. doob's ball pool-->
+    <head>
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+        <title>Cat Bounce Pool</title>
+        <style>
+            body {
+                overflow: hidden;
+                background-color: #000000;
+
+                user-select: none;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -o-user-select: none;
+                -ms-user-select: none;
+
+            }
+    #info{
+    position: absolute;
+        right: 5px;
+        bottom: 5px;
+        z-index: 2;
+        padding: 16px 24px;
+      color:#333;
+      font-size:10px;
+      font-family: helvetica;
+    }
+
+        </style>
+    </head>
+    <body>
+        <div id="wobble" class="italic">CAT BOUNCE POOL</div>
+        <div id="canvas"></div>
+    <script src="js/protoclass.js"></script>
+    <script src='js/box2d.js'></script>
+
+    <script src='js/Main.js'></script>
+       <script src='js/catz.js'></script>
+
+       <div id ="info">basically a mash up of
+                <a href="http://mrdoob.com/projects/chromeexperiments/ball-pool/">
+                ball pool</a> and <a href="http://cat-bounce.com/">cat bounce</a>, <3
+                <a href="https://github.com/whichlight">whichlight</a> <br>
+                fork and add some cat svg's
+                </div>
+    </body>
+</html>
+
