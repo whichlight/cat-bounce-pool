@@ -7,4 +7,4 @@ Most of the code is pulled from Mr. Doob's ball pool, hence the name cat bounce
 pool.
 http://mrdoob.com/projects/chromeexperiments/ball-pool/
 
-make by @whichlight
+made by @whichlight
