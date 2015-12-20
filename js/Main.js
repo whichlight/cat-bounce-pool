@@ -292,7 +292,7 @@ var graphics = element.getContext("2d");
         */
  var img = new Image;
 img.onload = function(){ graphics.drawImage(img, 0,0, xsize, ysize); };
-img.src = "../img/cat.svg";
+img.src = "img/cat.svg";
 
 	}
 
